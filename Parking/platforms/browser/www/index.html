@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Parking</title>
+      <link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css" type="text/css" media="all" />
+      <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+      <script src="js/jquery-1.8.3.min.js"></script>
+      <script src="js/jquery.mobile.config.js"></script>
+      <script src="js/jquery.mobile-1.2.0.min.js"></script>
+	  <script src="cordova.js"></script>
+	  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBzSRERAZX6hsiU3sAipoNqQI0cukNBnkA" type="text/javascript"></script>
+      <script src="js/maps.js"></script>
+	  <script src="js/functions.js"></script>
+      <script src="js/positions.js"></script>
+	  <script src="js/park.js"></script>
+      <script>
+         $(document).one('deviceready', initApplication);
+      </script>
+   </head>
+   <body>
+      <div id="welcome-page" data-role="page">
+         <header data-role="header">
+            <h1>Parking</h1>
+         </header>
+         <div id="content" data-role="content">
+				<center><canvas id="myCanvas" height="100px" ></canvas></center>
+				   <script>
+					var canvas = document.getElementById('myCanvas');
+					var context = canvas.getContext('2d');
+
+					context.beginPath();
+					context.rect(100, 30, 90, 70);
+					context.fillStyle = 'blue';
+					context.fill();
+					context.lineWidth = 2;
+					context.strokeStyle = 'white';
+					context.stroke();
+					var context1 = canvas.getContext('2d');
+
+					context1.font = '60pt Calibri';
+					context1.fillStyle = 'white';
+					context1.fillText('P', 125, 90);
+				</script>
+		    <br />
+			<span>Ova aplikacija vam omogucava pronalazenje parkiralista, cuvanje mesta gde ste parkirali, kao i pronalazenje puta do vaseg auta.</span>
+			<br /><br />
+			<a href="park.html" id="park" data-role="button">Dostupna parkiralista</a>
+            <a href="map.html?requestType=set" id="parkiraj-se" data-role="button">Parkiraj se</a>
+            <a href="map.html?requestType=get" id="pronadji-kola" data-role="button">Pronadji kola</a>
+            <a href="positions.html" id="istorija" data-role="button">Istorija</a>
+         </div>
+         <footer data-role="footer">
+            <h3>Kreirao UVTeam </h3>
+            <a href="credits.html" data-icon="info" data-iconpos="notext" class="ui-btn-right">Credits</a>
+         </footer>
+      </div>
+   </body>
+</html>

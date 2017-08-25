@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>UVTeam</title>
+   </head>
+   <body>
+      <div data-role="page">
+         <header data-role="header">
+            <a href="#" data-icon="back" data-iconpos="notext" data-rel="back" title="Go back">Back</a>
+            <h1>UVTeam</h1>
+         </header>
+         <div id="content" data-role="content">
+            <div class="person">
+    <center><canvas id="myCanvas1"></canvas></center>
+    <script>
+	  // Iscravanje logo-a za aplikaciju uz pomoc Canvas-a.
+      var canvas = document.getElementById('myCanvas1');
+      var context = canvas.getContext('2d');
+
+      context.beginPath();
+      context.rect(100, 30, 90, 70);
+      context.fillStyle = 'blue';
+      context.fill();
+      context.lineWidth = 2;
+      context.strokeStyle = 'white';
+      context.stroke();
+	  var context1 = canvas.getContext('2d');
+
+      context1.font = '60pt Calibri';
+	  context1.fillStyle = 'white';
+      context1.fillText('P', 125, 90);
+    </script>
+               <dl class="informations">
+                  
+                  <dt>Informacije:</dt>
+                  <dd>
+                     Nikola Stevanovic i Milos Aksentijevic.
+                  </dd>
+				  <br />
+				  <dd>
+				  Ova aplikacija vam omogucava pronalazenje parkiralista, cuvanje mesta gde ste parkirali, kao i pronalazenje puta do vaseg auta.
+               </dd>
+			   </dl>
+            </div>
+         </div>
+		 <footer data-role="footer">
+            <h3>Kreirao UVTeam </h3>
+         </footer>
+      </div>
+   </body>
+</html>
