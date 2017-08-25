@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/PDF"
+        android:icon="@drawable/ic_file_download_black_24dp"
+        app:showAsAction="ifRoom"
+        android:title="Download PDF">
+    </item>
+    <item
+        android:id="@+id/OpenPDF"
+        android:icon="@drawable/ic_open_in_browser_black_24dp"
+        app:showAsAction="ifRoom|withText"
+        android:title="Open PDF in browser">
+    </item>
+</menu>

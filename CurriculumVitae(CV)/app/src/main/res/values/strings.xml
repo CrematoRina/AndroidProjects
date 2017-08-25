@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CV</string>
+    <string name="Ime">Ime i Prezime</string>
+    <string name="Ime2">Nikola Stevanović</string>
+    <string name="Adr">Adresa</string>
+    <string name="Adr2">Ratka Pavlovića 107,18400 Prokuplje</string>
+    <string name="Tel">Telefon</string>
+    <string name="Tel2">+381 (0)64 / 112 45 48</string>
+    <string name="Mail">E-mail</string>
+    <string name="Mail1">nikolarock@hotmail.com</string>
+    <string name="Mail2">nikola.rina@elfak.rs</string>
+    <string name="Dat">Datum i mesto rođenja</string>
+    <string name="Dat2">03.01.1993. Prokuplje</string>
+
+    <string name="Obrazovanje">Obrazovanje</string>
+    <string name="Iskustvo">Radno iskustvo</string>
+    <string name="Kvaliteti">Lični kvaliteti</string>
+    <string name="Ostalo">Ostalo</string>
+
+    <string name="Dwn">PDF</string>
+    <string name="Obr">Open</string>
+
+    <string name="tekst_obrazovanje"><b>Visoko obrazovanje:</b>\nApsolvirao na elektronskom fakultetu u Nišu 2016. godine na smeru računarstvo i
+informatika.\n\n<b>Srednje obrazovanje:</b>\nZavršio Tehničku školu ”15.maj” u Prokuplju 2012. godine smer
+elektrotehničar računara.</string>
+
+    <string name="tekst_iskustvo">- Bez radnog iskustva.\n\n- Rad na projektu iz predmeta softversko inženjerstvo “ Elfak Projects Portal” -Web portal.\n\n- Rad na projektu iz predmeta sistemi baza podataka u .NET-u i na projektima iz predmeta napredne baze podataka (noSQL baze: Redis,Neo4J,MongoDB).\n\n- Rad na projektu iz predmeta mobilni sistemi i servisi “Parking servis” – Android aplikacija.</string>
+
+    <string name="tekst_licni">Najveća interesovanja su mi usmerena na računare i programiranje, volim da radim na
+računaru i stalno učim nove stvari. Volim da putujem i upoznajem ljude. Komunikativan sam i
+volim da radim sa ljudima. Veoma posvećen onome što radim.\n\n<b>Programski jezici:</b>\nPHP\nMySQL\nSQL\nHTML\nJavaScript\nCSS\nC\nC++\nC#\nJava\n…</string>
+
+    <string name="tekst_ostalo">-Engleski jezik(napredni nivo) \n-Vozačka dozvola (B kategorija od 2013.)</string>
+
+
+
+</resources>
